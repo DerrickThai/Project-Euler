@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let start = DispatchTime.now()
+print (q4())
+let end = DispatchTime.now()
 
+print ("\(Double (end.uptimeNanoseconds - start.uptimeNanoseconds) / 1000000) ms")
