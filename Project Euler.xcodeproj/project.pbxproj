@@ -10,6 +10,8 @@
 		F69E58C91E353866009FB0E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E58C81E353866009FB0E5 /* main.swift */; };
 		F69E58D01E353891009FB0E5 /* q3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E58CF1E353891009FB0E5 /* q3.swift */; };
 		F69E58D21E353BDC009FB0E5 /* q4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E58D11E353BDC009FB0E5 /* q4.swift */; };
+		F6E7C7681E50E50C004103B7 /* q5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7C7671E50E50C004103B7 /* q5.swift */; };
+		F6E7C76A1E50F82E004103B7 /* q6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7C7691E50F82E004103B7 /* q6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		F69E58C81E353866009FB0E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F69E58CF1E353891009FB0E5 /* q3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = q3.swift; sourceTree = "<group>"; };
 		F69E58D11E353BDC009FB0E5 /* q4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = q4.swift; sourceTree = "<group>"; };
+		F6E7C7671E50E50C004103B7 /* q5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = q5.swift; sourceTree = "<group>"; };
+		F6E7C7691E50F82E004103B7 /* q6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = q6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				F69E58C81E353866009FB0E5 /* main.swift */,
 				F69E58CF1E353891009FB0E5 /* q3.swift */,
 				F69E58D11E353BDC009FB0E5 /* q4.swift */,
+				F6E7C7671E50E50C004103B7 /* q5.swift */,
+				F6E7C7691E50F82E004103B7 /* q6.swift */,
 			);
 			path = "Project Euler";
 			sourceTree = "<group>";
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69E58C91E353866009FB0E5 /* main.swift in Sources */,
+				F6E7C7681E50E50C004103B7 /* q5.swift in Sources */,
+				F6E7C76A1E50F82E004103B7 /* q6.swift in Sources */,
 				F69E58D21E353BDC009FB0E5 /* q4.swift in Sources */,
 				F69E58D01E353891009FB0E5 /* q3.swift in Sources */,
 			);
@@ -258,6 +266,7 @@
 				F69E58CE1E353866009FB0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

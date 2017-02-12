@@ -9,15 +9,17 @@
 import Foundation
 
 // Largest Palindrome Product
-func q4() -> Int {
-    let sixDigPalins = Array((100...999).reversed())
+func q4(digits: Int) -> Int {
+    let max = power(base: 10, exp: digits)
+    
+    let palindromes = ((max / 10)...(max - 1)).reversed()
         .map{ String ($0) }
         .map{ $0 + String($0.characters.reversed()) }
         .map{ Int($0)! }
     
-    for n in sixDigPalins {
-        var x = 999
-        while n / x < 1000 {
+    for n in palindromes {
+        var x = max - 1
+        while n / x < max {
             if n % x == 0 {
                 return n
             }
@@ -25,4 +27,12 @@ func q4() -> Int {
         }
     }
     return -1
+}
+
+func power(base: Int, exp: Int) -> Int {
+    var res = 1
+    for _ in 1...exp {
+        res *= base
+    }
+    return res
 }
